@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <img onload = 'img' src='https://picsum.photos/200' width="200"><br><br>
+    
+    <form onkeydown = "submit2()">
+
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email id">
+        <button type="submit">Submit</button>
+     </form>
+
+     <form onkeyup = "submit3()">
+
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email id">
+        <button type="submit">Submit</button>
+     </form>
+   
+    <form onsubmit = "submit1()" aria-label="onsubmit">
+
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email id">
+        <button type="submit">Submit</button>
+     </form>
+
+     <form onfocus = "ffocus()">
+
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email id">
+        <button type="submit">focuss</button>
+     </form>
+
+     <form onblur = "bblur()">
+
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email id">
+        <button type="submit">focuss</button>
+     </form>
+
+     <form onchange = "cchange()">
+
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email id">
+        <button type="submit">focuss</button>
+     </form>
+
+   <button onclick="cclick()">om click event</button>
+   <button onmouseover="oover()">onmouseover</button>
+   <button onmouseout="oout()">onmouseout</button>
+   <button onmousedown="ddown()">onmousedowndown</button>
+   <button onmouseup="uup()">onmouseup</button>
+   <button onmousemove="mmove()">onmousemove</button>
+
+
+    
+  <script>
+
+    function submit2(){
+
+    alert('keyboard event keydown')
+
+    }
+
+    function submit3(){
+
+    alert('keyboard event keydown')
+
+    }
+
+    function img(){
+
+        alert('window onload event')
+    }
+    
+    
+    function submit1(){
+
+        alert('Submit went through')
+    }
+
+    function ffocus(){
+
+        alert('Focusing now')
+
+        }
+ 
+    function bblur(){
+
+        alert('blur evemt running')
+
+        }
+
+    function cchange(){
+
+            alert('Change is constant')
+
+            }
+
+        function cclick(){
+            alert('click event')
+        }
+
+        function oover(){
+            alert('mouse over event')
+        }
+
+        function oout(){
+            alert('mouse out event')
+        }
+        function ddown(){
+            alert('mouse down event')
+        }
+        function uup(){
+            alert('mouse up event')
+        }
+        function mmove(){
+            alert('mouse move event')
+        }
+
+
+
+  </script>
+
+
+</body>
+</html>
